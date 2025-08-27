@@ -17,6 +17,25 @@ int main() {
     // Exibição dos Dados das Cartas:
     // Sugestão: Utilize a função printf para exibir as informações das cartas cadastradas de forma clara e organizada.
     // Exiba os valores inseridos para cada atributo da cidade, um por linha.
+    
+int carta = 1;
+char estado = 'A';
+char codigo[20] = "A01";
+char nome_cidade[20] = "São_Paulo";
+int população = 1500000;
+float area = 29.521;
+float PIB = 467000.678;
+int numero_pontos_turisticos = 37;
+
+printf("Super Trunfo - Estados do Brasil \n");
+printf("Numero da carta: %d \n", carta);
+printf("Estado: %c \n", estado);
+printf("Código da carta: %s \n", codigo);
+printf("Nome da cidade: %s \n", nome_cidade);
+printf("População: %d \n", população);
+printf("Area: %.3f \n", area);
+printf("PIB: %.3f \n", PIB);
+printf("Números de pontos turisticos: %d \n", numero_pontos_turisticos);
 
     return 0;
 }
